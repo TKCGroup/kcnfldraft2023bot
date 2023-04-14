@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+  <category>
+    <pattern>HI</pattern>
+    <template>Hello! I'm here to help you with any questions about Kansas City or the NFL Draft. Just ask!</template>
+  </category>
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! I'm here to help you with any questions about Kansas City or the NFL Draft. Just ask!</template>
+  </category>
+  <category>
+    <pattern>BYE</pattern>
+    <template>Goodbye! If you have any more questions, feel free to ask later. Have a great time in Kansas City!</template>
+  </category>
+  <category>
+    <pattern>GOODBYE</pattern>
+    <template>Goodbye! If you have any more questions, feel free to ask later. Have a great time in Kansas City!</template>
+  </category>
 </aiml>
