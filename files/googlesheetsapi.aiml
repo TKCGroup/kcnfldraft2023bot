@@ -11,7 +11,7 @@
     <template>
       <oob>
         <urlfetch>
-          <get>https://sheets.googleapis.com/v4/spreadsheets/1wMfv2J_gs5sEDtRzyK2C4mdHsQYRgOuK_NuR33YW9C8/values/"Sheet1!"A1:D7"?majorDimension=ROWS&amp;key=a334fb9a04fff6533a77e5ef98f5a91564e8496d</get>
+          <get>https://sheets.googleapis.com/v4/spreadsheets/1wMfv2J_gs5sEDtRzyK2C4mdHsQYRgOuK_NuR33YW9C8/values/"Restaurants!"A1:D7"?majorDimension=ROWS&amp;key=a334fb9a04fff6533a77e5ef98f5a91564e8496d</get>
         </urlfetch>
       </oob>
     </template>
