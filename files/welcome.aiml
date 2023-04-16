@@ -1,10 +1,40 @@
-<aiml version="2.0">
-  <category>
-    <pattern>WELCOME TO *</pattern>
-    <template>Welcome to Kansas City, home of the 2023 NFL Draft! Where would you like to begin?
-      1. List of events
-      2. Restaurants
-      3. Draft Information
-    </template>
-  </category>
-</aiml>
+<category>
+  <pattern>*</pattern>
+  <template>
+    Welcome to Kansas City, home of the 2023 NFL Draft! Where would you like to begin?
+    \n1. List of events
+    \n2. Restaurants
+    \n3. Draft Information
+  </template>
+</category>
+
+<category>
+  <pattern>1</pattern>
+  <template>
+    Here's a list of events for the NFL Draft in Kansas City:
+    \n - NFL Draft Round 1 - April 27th, 2023
+    \n - NFL Draft Round 2-3 - April 28th, 2023
+    \n - NFL Draft Round 4-7 - April 29th, 2023
+  </template>
+</category>
+
+<category>
+  <pattern>2</pattern>
+  <template>
+    Here are some restaurants in Kansas City:
+    \n - Joe's Kansas City Bar-B-Que
+    \n - Q39
+    \n - Jack Stack Barbecue
+    \n - Arthur Bryant's Barbeque
+  </template>
+</category>
+
+<category>
+  <pattern>3</pattern>
+  <template>
+    Here's some information about the NFL Draft in Kansas City:
+    \n - The NFL Draft will take place from April 27th to 29th, 2023
+    \n - The event will be held in downtown Kansas City at the Sprint Center
+    \n - Tickets are available for purchase on the official NFL Draft website
+  </template>
+</category>
