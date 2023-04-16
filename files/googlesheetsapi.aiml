@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>GET DATA FROM SHEET</pattern>
+    <template>
+      <srai>CALL GOOGLE SHEETS API</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CALL GOOGLE SHEETS API</pattern>
+    <template>
+      <oob>
+        <urlfetch>
+          <get>https://sheets.googleapis.com/v4/spreadsheets/SPREADSHEET_ID/values/RANGE?majorDimension=ROWS&amp;key=API_KEY</get>
+        </urlfetch>
+      </oob>
+    </template>
+  </category>
+</aiml>
